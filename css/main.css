@@ -1,0 +1,170 @@
+*, *::before, *::after{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-size: 16px;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 400;
+	
+
+	
+}
+
+.nev{
+	padding-top: 10%;
+	padding-bottom:30%;
+	
+	font-size: 2rem;
+	align-items: center;
+	color: #ffffff;
+}
+
+main{
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.footer{
+	border-top:  2px solid black;
+	background-color: white;
+	
+}
+
+img{
+	max-width: 100%;
+
+}
+
+
+.gomb{
+	border: 2px #FF7A43;
+	background-color: #FF7A43;
+	color: white; 
+	display: inline-block;
+	padding:  0.5rem 1rem;
+	margin: 0.2rem;
+	border-radius: 2rem;
+	transition: 0.3s;
+	min-width: max-content;
+	user-select: none;
+	text-decoration: none;
+}
+.gomb:hover{
+	cursor: pointer;
+	background-color: white;
+	color: #FF7A43;
+	border: #FF7A43;
+}
+.gomb_kint{
+	float: right;
+}
+ .eleres{
+  table-layout: auto;
+  float: right;
+  padding-right:1rem;
+}
+.tanulmanyok{
+	background-color: #FFE4A1;
+}
+.gimicim{
+	font-size: 2rem;
+	font-weight: 700;
+}
+.gimi{
+	margin-top: 1rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+	padding: 2rem;
+	border-radius: 2rem;
+	background-color: white;
+	min-height: 16rem;
+}
+.egyetemcim{
+	font-size: 2rem;
+	font-weight: 700;
+}
+.egyetem{
+	margin: 1rem;
+	padding: 2rem;
+	border-radius: 2rem;
+	background-color: white;
+	min-height: 16rem;
+}
+.gimikep{
+	max-height: 10rem;
+	float: left;
+	border: 2px solid black;
+}
+.egyetemkep{
+	max-height: 10rem;
+	float: left;
+	border: 2px solid black;
+}
+.sportok{
+	background-color: lightblue;
+	
+}
+.surf{
+	margin: 1rem;
+	padding: 2rem;
+	border-radius: 2rem;
+	background-color: white;
+	min-height: 16rem;
+}
+.surfcim{
+	font-size: 2rem;
+	font-weight: 700;
+}
+.surfkep{
+	max-height: 9rem;
+	float: left;
+	border: 2px solid black;
+}
+.surfkep2{
+	max-height: 10rem;
+	float: right;
+	border: 2px solid black;
+}
+.ropi{
+	margin: 1rem;
+	padding: 2rem;
+	border-radius: 2rem;
+	background-color: white;
+	min-height: 17rem;
+}
+.ropicim{
+	font-size: 2rem;
+	font-weight: 700;
+}
+.ropikep{
+	max-height: 10rem;
+	float: right;
+	border: 2px solid black;
+}
+body{
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.kapcscim{
+	text-align: center;
+	margin-left: 3rem;
+	margin-right: 3rem;
+	font-size: 2.5rem;
+	color: white;
+	
+	
+	
+}
+.kapcs {
+	table-layout: auto;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+	font-size: 1rem;
+	border: 2px;
+	border-radius: 2rem;
+	background-color: white;
+	padding: 1rem;
+
+}
